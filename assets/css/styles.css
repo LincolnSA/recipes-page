@@ -1,0 +1,90 @@
+:root{
+  --body-bg-color :#EAEAEA;
+  --recipe-bg-color: #FFFFFF;
+  --title-color:#1B1B1B;
+  --subtitle-color:#1B1B1B;
+  --footer-color: #8F8F8F;
+  --others-color:#39393A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--body-bg-color);
+  font-family: 'Roboto', sans-serif;
+
+  padding: 2rem;
+}
+
+h1{
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--title-color);
+  text-transform: uppercase;
+
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--subtitle-color);
+  text-transform: uppercase;
+
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p, ul, ol li{
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--others-color);
+}
+
+li{
+  margin-bottom: 0.5rem;
+}
+
+main{
+  width: 100%;
+  max-width: 992px;
+
+  background-color: var(--recipe-bg-color);
+
+  margin: 0rem auto;
+  padding:  2rem ;
+
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgb(158, 158, 158);
+}
+
+section{
+  margin-bottom: 2rem;
+}
+
+section figure {
+  text-align: right;
+  font-size: 12px;
+  color: var(--footer-color);
+}
+
+section figure img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+footer p{
+  text-align: center;
+
+  padding: 2rem;
+  color: var(--footer-color);
+}
